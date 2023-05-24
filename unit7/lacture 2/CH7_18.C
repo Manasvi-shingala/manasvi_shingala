@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+main()
+{
+	int i,j,k,l;
+	 for(i=1;i<=5;i++)
+	 {
+	    for(k=5;k>i;k--)
+	     {
+	     	printf(" ");
+		 }
+		 for(j=1;j<=i;j++)
+		 {
+		 	printf("*",j);
+		 }
+		 for(l=i-1;l>=1;l--)
+		 {
+		 	printf("*",l);
+		 }
+		 printf("\n");	
+	 }
+}
